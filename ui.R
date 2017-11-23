@@ -21,6 +21,7 @@ shinyUI(fluidPage(
        sliderInput("bins",
                    "Number of bins:",
                    min = 1,
+                   max = 1000,
                    value = 30)
     ),
     
